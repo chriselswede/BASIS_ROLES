@@ -1,0 +1,78 @@
+{
+	"BASIS_GRANTING_SERVICE": {
+		"object_owner": {
+			"schema_privileges": [
+				{
+					"schema": "_SYS_STATISTICS",
+					"privileges_with_grant_option": ["SELECT"]
+				}
+			],
+			"roles": [
+				{
+					"roles_with_admin_option": [
+						"MONITORING"
+					]
+				}
+			],
+			"object_privileges": [
+				{
+					"schema": "_SYS_SECURITY",
+					"name": "_SYS_PASSWORD_BLACKLIST",
+					"type": "TABLE",
+					"privileges_with_grant_option": ["SELECT", "INSERT", "UPDATE", "DELETE"]
+				}
+			],
+			"system_privileges": [
+				{
+					"privileges_with_admin_option": [
+						"ADAPTER ADMIN",
+						"AGENT ADMIN",
+						"ATTACH DEBUGGER",
+						"AUDIT ADMIN",
+						"AUDIT OPERATOR",
+						"BACKUP ADMIN",
+						"BACKUP OPERATOR",
+						"CATALOG READ",
+						"CERTIFICATE ADMIN",
+						"CLIENT PARAMETER ADMIN",
+						"CREATE R SCRIPT",
+						"CREATE REMOTE SOURCE",
+						"CREATE SCENARIO",
+						"CREATE SCHEMA",
+						"CREATE STRUCTURED PRIVILEGE",
+						"CREDENTIAL ADMIN",
+						"DATA ADMIN",
+						"ENCRYPTION ROOT KEY ADMIN",
+						"EXPORT",
+						"EXTENDED STORAGE ADMIN",
+						"IMPORT",
+						"INIFILE ADMIN",
+						"LDAP ADMIN",
+						"LICENSE ADMIN",
+						"LOG ADMIN",
+						"MONITOR ADMIN",
+						"OPTIMIZER ADMIN",
+						"RESOURCE ADMIN",
+						"ROLE ADMIN",
+						"SAVEPOINT ADMIN",
+						"SCENARIO ADMIN",
+						"SERVICE ADMIN",
+						"SESSION ADMIN",
+						"SSL ADMIN",
+						"STRUCTUREDPRIVILEGE ADMIN",
+						"TABLE ADMIN",
+						"TRACE ADMIN",
+						"TRUST ADMIN",
+						"USER ADMIN",
+						"VERSION ADMIN",
+						"WORKLOAD ADMIN",
+						"WORKLOAD ANALYZE ADMIN",
+						"WORKLOAD CAPTURE ADMIN",
+						"WORKLOAD REPLAY ADMIN"
+					]
+				}
+			]
+		}
+	}
+}
+

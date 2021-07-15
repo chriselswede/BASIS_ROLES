@@ -1,0 +1,17 @@
+{
+	"role": {
+		"name": "DB_CONTAINER_ROLE_ADMIN",
+		"object_privileges": [
+			{
+				"name": "GRANT_ROLE_TO_USER",
+				"type": "PROCEDURE",
+				"privileges": ["EXECUTE"]
+			},
+			{
+				"name": "REVOKE_ROLE_FROM_USER",
+				"type": "PROCEDURE",
+				"privileges": ["EXECUTE"]
+			}
+		]
+	}
+}

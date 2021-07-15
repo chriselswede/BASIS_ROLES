@@ -1,0 +1,11 @@
+{
+	"role": {
+		"name": "SELECT__SYS_STATISTICS", 
+		"schema_privileges": [
+			{
+				"reference": "_SYS_STATISTICS_SCHEMA",
+				"privileges": ["SELECT"]
+			}
+		]
+	}
+}

@@ -1,0 +1,52 @@
+{
+  "sys_security._password_blacklist": {
+	"target": {
+		"object": "_SYS_PASSWORD_BLACKLIST",
+		"schema": "_SYS_SECURITY"
+	}
+  },
+  "sys.users": {
+    "target": {
+      "object": "USERS",
+      "schema": "SYS"
+    }
+  },
+  "sys.roles": {
+    "target": {
+      "object": "ROLES",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_services": {
+    "target": {
+      "object": "M_SERVICES",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_service_memory": {
+    "target": {
+      "object": "M_SERVICE_MEMORY",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_heap_memory_reset": {
+    "target": {
+      "object": "M_HEAP_MEMORY_RESET",
+      "schema": "SYS"
+    }
+  },
+  "sys.m_service_statistics": {
+    "target": {
+      "object": "M_SERVICE_STATISTICS",
+      "schema": "SYS"
+    }
+  },
+  "sys.dummy": {
+    "target": {
+      "object": "DUMMY",
+      "schema": "SYS"
+    }
+  }
+}
+
+

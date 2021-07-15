@@ -1,0 +1,33 @@
+{
+	"role": {
+		"name": "DB_MONITORING",
+		"schema_roles": [
+			{
+				"names": [ "SELECT__SYS_STATISTICS" ]
+			}
+		], 
+		"system_privileges": ["CATALOG READ"],
+		"object_privileges": [
+			{
+				"name": "sys.m_services",
+				"type": "VIEW",
+				"privileges": ["SELECT"]
+			},
+			{
+				"name": "sys.m_service_memory",
+				"type": "VIEW",
+				"privileges": ["SELECT"]
+			},
+			{
+				"name": "sys.m_service_statistics",
+				"type": "VIEW",
+				"privileges": ["SELECT"]
+			},
+			{
+				"name": "sys.m_heap_memory_reset",
+				"type": "VIEW",
+				"privileges": ["SELECT"]
+			}
+		]
+	}
+}

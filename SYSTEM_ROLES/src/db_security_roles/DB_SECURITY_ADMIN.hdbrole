@@ -1,0 +1,19 @@
+{
+	"role": {
+		"name": "DB_SECURITY_ADMIN",
+		"object_privileges": [
+			{
+				"name": "sys_security._password_blacklist",
+				"type": "TABLE",
+				"privileges": ["SELECT", "INSERT", "UPDATE", "DELETE"]
+			}
+		], 
+		"system_privileges": [
+			"CATALOG READ",
+			"TRACE ADMIN",
+			"INIFILE ADMIN",
+			"AUDIT ADMIN",
+			"AUDIT OPERATOR"
+		]
+	}
+}

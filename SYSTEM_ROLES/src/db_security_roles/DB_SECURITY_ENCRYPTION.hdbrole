@@ -1,0 +1,10 @@
+{
+	"role": {
+		"name": "DB_SECURITY_ENCRYPTION", 
+		"system_privileges": [
+			"CATALOG READ",
+			"RESOURCE ADMIN",
+			"ENCRYPTION ROOT KEY ADMIN"
+		]
+	}
+}

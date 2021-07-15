@@ -1,0 +1,6 @@
+{
+	"role": {
+		"name": "DB_USER_ADMIN",
+		"system_privileges": ["USER ADMIN"]
+	}
+}

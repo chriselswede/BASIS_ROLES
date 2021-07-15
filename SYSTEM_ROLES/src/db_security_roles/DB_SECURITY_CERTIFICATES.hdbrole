@@ -1,0 +1,11 @@
+{
+	"role": {
+		"name": "DB_SECURITY_CERTIFICATES", 
+		"system_privileges": [
+			"CATALOG READ",
+			"SSL ADMIN",
+			"TRUST ADMIN",
+			"CERTIFICATE ADMIN"
+		]
+	}
+}
