@@ -1,0 +1,10 @@
+{
+	"role": {
+		"name": "DB_SUPPORT_READ",
+		"schema_roles": [
+			{
+				"names": ["DB_MONITORING"]
+			}
+		] 
+	}
+}

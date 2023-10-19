@@ -1,0 +1,13 @@
+{
+	"role": {
+		"name": "DB_SUPPORT_TRACE",
+		"schema_roles": [
+			{
+				"names": ["DB_SUPPORT_READ"]
+			}
+		],
+		"system_privileges": [
+			"TRACE ADMIN"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"role": {
+		"name": "DB_DATA_ADMIN",
+		"system_privileges": [
+			"CREATE SCHEMA",
+			"EXPORT",
+			"IMPORT"
+		]
+	}
+}
